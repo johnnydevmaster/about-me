@@ -1,0 +1,36 @@
+.topPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    top: 0;
+}
+.logo{
+    background-image: url("./img/logo\ -\ simple.png");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: -40px;
+}
+.options{
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    padding: 35px 110px;
+}
+
+.options:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.middlePart{
+    background-image: url("./img/c4813a8fb2fcfe4b18481d4e11083a32.png");
+    height: 620px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
