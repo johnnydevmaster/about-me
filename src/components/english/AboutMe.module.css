@@ -1,0 +1,118 @@
+.backImage{
+    background-image: url("./img/Back_Arrow.svg.png");
+    height: 120px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+    height: 50px;
+    width: 50px;
+}
+.middlePart{
+    background-image: url("./img/landscapes-of-romania.jpg");
+    height: 620px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.profilePicture{
+    background-image: url("./img/IMG-20220723-WA0000.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 30px 200px ; 
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.623);
+}
+.redMark{
+    background-image: url("./img/213-2130212_permalink-to-red-x-clipart-red-x-png.png");
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+.siteLink{
+    color: rgb(212, 209, 209);
+    text-decoration: none;
+}
+.siteLink:hover{
+    color: white;
+}
+td, th, table, tr {
+    border: 3px solid black;
+    text-align: left;
+    padding: 20px;
+    border-collapse: collapse;
+    color: black;
+    font-weight: 500;
+    margin: 50px 100px;
+    text-align: center;
+    font-weight: bold;
+}
+td, tr, tr, table{
+    width: 900px;
+} 
+.skillTitle{
+    text-shadow: 1.5px 1.5px black;
+    margin-top: 55px;
+    margin-left: 10px;
+    color: white;
+    font-size: 29px;
+}
+.html{
+    background-image: url("./img/1200px-HTML5_logo_and_wordmark.svg.png");
+    height: 80px;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 40px;
+}
+.css{
+    background-image: url("./img/CSS3_logo_and_wordmark.svg.png");
+    height: 80px;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 40px;
+}
+.javascript{
+    background-image: url("./img/JavaScript-Logo.png");
+    height: 80px;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+}
+.react{
+    background-image: url("./img/React-icon.svg.png");
+    height: 80px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+}
+.adobePremierePro{
+    background-image: url("./img/Adobe_Premiere_Pro_CC_icon.svg.png");
+    height: 80px;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+}
