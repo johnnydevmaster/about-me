@@ -1,8 +1,8 @@
 import React from 'react'
 import {  Link } from "react-router-dom";
-import classes from "./AboutMe.module.css"
+import classes from "./WhatIDo.module.css"
 
-const AboutMeTopPart = () => {
+const WhatIDoTopPart = () => {
   return (
     <div>
         <div className={classes.topPart}>
@@ -10,9 +10,8 @@ const AboutMeTopPart = () => {
             <Link className={classes.backSymbol}  to="/ro/"> <div className={classes.backImage} /> </Link> 
             </div>
         </div>
-
     </div>
   )
 }
 
-export default AboutMeTopPart
+export default WhatIDoTopPart

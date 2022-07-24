@@ -1,18 +1,17 @@
 import React from 'react'
 import {  Link } from "react-router-dom";
-import classes from "./AboutMe.module.css"
+import classes from "./WhatIDo.module.css"
 
-const AboutMeTopPart = () => {
+const WhatIDoTopPart = () => {
   return (
     <div>
         <div className={classes.topPart}>
             <div className={classes.backSymbol}>
-            <Link className={classes.backSymbol}  to="/ro/"> <div className={classes.backImage} /> </Link> 
+            <Link className={classes.backSymbol}  to="/en/"> <div className={classes.backImage} /> </Link> 
             </div>
         </div>
-
     </div>
   )
 }
 
-export default AboutMeTopPart
+export default WhatIDoTopPart

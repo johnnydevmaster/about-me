@@ -1,6 +1,6 @@
 import React from 'react'
-import WhatIDoTopPart from "../../components/english/WhatIDoTopPart"
-import WhatIDoMiddlePart from "../../components/english/WhatIDoMiddlePart"
+import WhatIDoTopPart from "../../components/romanian/WhatIDoTopPart"
+import WhatIDoMiddlePart from "../../components/romanian/WhatIDoMiddlePart"
 
 const WhatIDo = () => {
   return (

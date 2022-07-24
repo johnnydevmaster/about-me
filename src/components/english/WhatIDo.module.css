@@ -1,0 +1,27 @@
+.backImage{
+    background-image: url("./img/Back_Arrow.svg.png");
+    height: 120px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+    height: 50px;
+    width: 50px;
+}
+.middlePart{
+    background-image: url("./img/discussion.jpg");
+    height: 620px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+.text{
+    font-size: 22px;
+}
+.texT{
+    font-size: 32px;
+}

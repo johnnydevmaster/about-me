@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '@mui/material/Button';
 import classes from "./Homepage.module.css"
 import {  Link } from "react-router-dom";
 
@@ -13,8 +12,8 @@ const HomepageMiddlePart = () => {
             <h2>All of this made by me</h2>
             </div>
             <div className={classes.buttonArea}>
-                <Button className={classes.button1} variant="outlined" sx={{color:"orange", border:"2px solid orange"}} ><Link className={classes.link1}  to="/en/contact-me">Make a order</Link></Button>
-                <Button className={classes.button2} variant="outlined" sx={{color:"blue", border:"2px solid blue"}} ><Link className={classes.link2}  to="/en/my-services">Find out more</Link></Button>
+                <Link className={classes.link1}  to="/en/contact-me"><button className={classes.button1}  >Make a order</button></Link>
+                <Link className={classes.link2}  to="/en/my-services"> <button className={classes.button2} > Find out more </button> </Link>
             </div>
         </div>
     </div>
