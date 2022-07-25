@@ -9,6 +9,8 @@ import WhatIDo from './pages/english/WhatIDo';
 import CuCeMaOcup from './pages/romanian/CuCeMaOcup';
 import MyServices from './pages/english/MyServices';
 import ServiciileMele from './pages/romanian/ServiciileMele';
+import ContacteazaMa from './pages/romanian/ContacteazaMa';
+import ContactMe from './pages/english/ContactMe';
 
 
 function App() {
@@ -23,12 +25,12 @@ function App() {
             <Route path="/en/about-me" element={<AboutMe />} ></Route>
             <Route path="/en/what-i-do" element={<WhatIDo />} ></Route>
             <Route path="/en/my-services" element={<MyServices />} ></Route>
-            <Route path="/en/contact-me" element={<HomepageEn />} ></Route>
+            <Route path="/en/contact-me" element={<ContactMe />} ></Route>
 
             <Route path="/ro/despre-mine" element={<DespreMine />}></Route>
             <Route path="/ro/cu-ce-ma-ocup" element={<CuCeMaOcup />}></Route>
             <Route path="/ro/serviciile-mele" element={<ServiciileMele />}></Route>
-            <Route path="/ro/contacteaza-ma" element={<HomepageRo />}></Route>
+            <Route path="/ro/contacteaza-ma" element={<ContacteazaMa />}></Route>
       </Routes>
     </>
 );

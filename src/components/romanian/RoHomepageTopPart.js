@@ -9,7 +9,7 @@ const HomepageTopPart = () => {
         <div className={classes.logo}/>
         <Link className={classes.options}  to="/ro/despre-mine">Despre mine</Link> 
         <Link className={classes.options}  to="/ro/cu-ce-ma-ocup">Cu ce ma ocup </Link>
-        <Link className={classes.options}  to="/ro/servicile-mele">Servicile mele</Link>
+        <Link className={classes.options}  to="/ro/serviciile-mele">Servicile mele</Link>
         <Link className={classes.options}  to="/ro/contacteaza-ma">Contacteaza-ma</Link>
     </div>
 </div>
