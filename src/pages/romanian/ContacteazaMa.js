@@ -1,9 +1,14 @@
 import React from 'react'
+import ContactMeMiddlePart from '../../components/romanian/ContactMeMiddlePart'
+import ContactMeTopPart from '../../components/romanian/ContactMeTopPart'
 
-const ContacteazaMa = () => {
+const ContactMe = () => {
   return (
-    <div>ContacteazaMa</div>
+    <div>
+      <ContactMeTopPart/>
+      <ContactMeMiddlePart/>
+    </div>
   )
 }
 
-export default ContacteazaMa
+export default ContactMe

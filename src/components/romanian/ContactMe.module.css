@@ -1,0 +1,145 @@
+.backImage{
+    background-image: url("./img/Back_Arrow.svg.png");
+    height: 120px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+    height: 50px;
+    width: 50px;
+}
+.middlePart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("./img/J4n5cH.webp");
+    height: 620px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+.phoneLogo{
+    background-image: url("./img/b5d7198734ee5174b581630628ecfdd6.png");
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: -50px;
+    margin-left: -18px;
+    animation: rightMove 1s ease-in-out forwards;
+    transition: 1s;
+}
+@keyframes rightMove{
+    0%{
+        margin-left: -18px;
+        transform: rotate(5deg);
+    }
+    100%{
+        margin-left: 160px;
+        transform: rotate(-10deg);
+    }
+}
+.phoneText{
+    animation: opacityMove 1s ease-in forwards;
+    animation-delay: 1s;
+    transition: 1s;
+    opacity: 0%;
+}
+.gmailLogo{
+    background-image: url("./img/Gmail_icon_(2020).svg.png");
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: -50px;
+    margin-left: -18px;
+    animation: rightMoveG 1s ease-in-out forwards;
+    animation-delay: 2s;
+    transition: 1s;
+}
+@keyframes rightMoveG{
+    0%{
+        margin-left: -18px;
+    }
+    100%{
+        margin-left: 200px;
+    }
+}
+.gmailText{
+    animation: opacityMove 1s ease-in forwards;
+    animation-delay: 3s;
+    transition: 1s;
+    opacity: 0%;
+}
+@keyframes opacityMove{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.instagramLogo{
+    background-image: url("./img/Instagram_logo_2016.svg\ \(1\).webp");
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: -50px;
+    margin-left: -18px;
+    animation: rightMoveI 1s ease-in-out forwards;
+    animation-delay: 3.5s;
+    transition: 1s;
+}
+@keyframes rightMoveI{
+    0%{
+        margin-left: -18px;
+    }
+    100%{
+        margin-left: 200px;
+    }
+}
+.instagramText{
+    animation: opacityMoveI 1s ease-in forwards;
+    animation-delay: 4.5s;
+    transition: 1s;
+    opacity: 0%;
+}
+@keyframes opacityMoveI{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.tikTokLogo{
+    background-image: url("./img/download\ \(1\).png");
+    height: 80px;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: -55px;
+    margin-left: -30px;
+    animation: rightMoveI 1s ease-in-out forwards;
+    animation-delay: 3.5s;
+    transition: 1s;
+}
+.tikTokText{
+    animation: opacityMoveI 1s ease-in forwards;
+    animation-delay: 4.5s;
+    transition: 1s;
+    opacity: 0%;
+}
+.title{
+    margin: 20px;
+    font-size: 37px;
+}
