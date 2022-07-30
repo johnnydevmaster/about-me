@@ -198,3 +198,42 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
+@media only screen and (max-width: 600px) {
+    .topPart{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 100px;
+        width: 450vw;
+        top: 0;
+    }   
+    .middlePart{
+        background-image: url("./img/c4813a8fb2fcfe4b18481d4e11083a32.jpg");
+        height: 820px;
+        width: 450vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 3px;
+    }    
+    .bottomPart{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: hsl(224,84%,61%);
+        width: 450vw;
+        z-index: -2;
+    }    
+    .bottomPart::after{
+        bottom: 0;
+        margin-bottom: -270px;
+        content: "";
+        position: absolute;
+        width: 450vw;
+        height: 207px;
+        background: linear-gradient(to bottom, #84a9fa, transparent);
+        z-index: 1;
+    }     
+}

@@ -54,7 +54,7 @@
     color: white;
     text-shadow: 2px 2px 2px black;
     font-size: 18px;
-    margin-top: 370px;
+    margin-top: 390px;
     margin-left: 270px;
     text-decoration: none;
 }
@@ -68,7 +68,7 @@
     color: white;
     text-shadow: 2px 2px 2px black;
     font-size: 18px;
-    margin-top: 420px;
+    margin-top: 390px;
     margin-left: 300px;
     text-decoration: none;
 }
@@ -90,4 +90,18 @@
     font-size: 45px;
     margin: 25px;
     color: rgb(14, 14, 14);
+}
+@media only screen and (max-width: 600px) {
+    .middlePart{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-image: url("./img/bianca_25x40\,qnuMpq2lq3GXrsaOZ6Qkk.png");
+        height: 720px;
+        width: 470vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }    
 }

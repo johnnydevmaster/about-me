@@ -25,3 +25,16 @@
 .texT{
     font-size: 32px;
 }
+@media only screen and (max-width: 600px) {
+    .middlePart{
+        background-image: url("./img/discussion.jpg");
+        height: 820px;
+        width: 450vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 1px black;
+    }    
+}
