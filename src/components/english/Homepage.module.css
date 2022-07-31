@@ -210,7 +210,7 @@
     }  
     .middlePart{
         background-image: url("./img/c4813a8fb2fcfe4b18481d4e11083a32.jpg");
-        height: 362vh;
+        height: 820px;
         width: 450vw;
         background-repeat: no-repeat;
         background-size: cover;
@@ -228,7 +228,7 @@
     }    
     .bottomPart::after{
         bottom: 0;
-        margin-bottom: -2560px;
+        margin-bottom: -270px;
         content: "";
         position: absolute;
         width: 450vw;
