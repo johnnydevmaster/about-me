@@ -72,8 +72,7 @@
     }    
     .firstPage{
         width: 200vw;
-        height: 120vh;
-        max-height: 120vh;
+        height: 200vh;
         background-image: url("./images/firstpagewalpaper.jpg");
         background-repeat: no-repeat;
         background-size:cover;
